@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.DropDownList("livro", "Escolha")
+    <input type="submit" value="Ok" />
+}
